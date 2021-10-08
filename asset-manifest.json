@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/Parallax-Portfolio/static/css/main.a617e044.chunk.css",
-    "main.js": "/Parallax-Portfolio/static/js/main.49b29618.chunk.js",
-    "main.js.map": "/Parallax-Portfolio/static/js/main.49b29618.chunk.js.map",
-    "runtime-main.js": "/Parallax-Portfolio/static/js/runtime-main.b979235a.js",
-    "runtime-main.js.map": "/Parallax-Portfolio/static/js/runtime-main.b979235a.js.map",
-    "static/js/2.8c531cf7.chunk.js": "/Parallax-Portfolio/static/js/2.8c531cf7.chunk.js",
-    "static/js/2.8c531cf7.chunk.js.map": "/Parallax-Portfolio/static/js/2.8c531cf7.chunk.js.map",
-    "static/js/3.b5ff07c3.chunk.js": "/Parallax-Portfolio/static/js/3.b5ff07c3.chunk.js",
-    "static/js/3.b5ff07c3.chunk.js.map": "/Parallax-Portfolio/static/js/3.b5ff07c3.chunk.js.map",
+    "main.css": "/Parallax-Portfolio/static/css/main.dee24952.chunk.css",
+    "main.js": "/Parallax-Portfolio/static/js/main.804f023c.chunk.js",
+    "main.js.map": "/Parallax-Portfolio/static/js/main.804f023c.chunk.js.map",
+    "runtime-main.js": "/Parallax-Portfolio/static/js/runtime-main.97521fc9.js",
+    "runtime-main.js.map": "/Parallax-Portfolio/static/js/runtime-main.97521fc9.js.map",
+    "static/css/2.c1256375.chunk.css": "/Parallax-Portfolio/static/css/2.c1256375.chunk.css",
+    "static/js/2.feb3d10d.chunk.js": "/Parallax-Portfolio/static/js/2.feb3d10d.chunk.js",
+    "static/js/2.feb3d10d.chunk.js.map": "/Parallax-Portfolio/static/js/2.feb3d10d.chunk.js.map",
+    "static/js/3.6319cc94.chunk.js": "/Parallax-Portfolio/static/js/3.6319cc94.chunk.js",
+    "static/js/3.6319cc94.chunk.js.map": "/Parallax-Portfolio/static/js/3.6319cc94.chunk.js.map",
     "index.html": "/Parallax-Portfolio/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/Parallax-Portfolio/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.8c531cf7.chunk.js.LICENSE.txt": "/Parallax-Portfolio/static/js/2.8c531cf7.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/Parallax-Portfolio/static/media/logo.6ce24c58.svg"
+    "static/css/2.c1256375.chunk.css.map": "/Parallax-Portfolio/static/css/2.c1256375.chunk.css.map",
+    "static/css/main.dee24952.chunk.css.map": "/Parallax-Portfolio/static/css/main.dee24952.chunk.css.map",
+    "static/js/2.feb3d10d.chunk.js.LICENSE.txt": "/Parallax-Portfolio/static/js/2.feb3d10d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b979235a.js",
-    "static/js/2.8c531cf7.chunk.js",
-    "static/css/main.a617e044.chunk.css",
-    "static/js/main.49b29618.chunk.js"
+    "static/js/runtime-main.97521fc9.js",
+    "static/css/2.c1256375.chunk.css",
+    "static/js/2.feb3d10d.chunk.js",
+    "static/css/main.dee24952.chunk.css",
+    "static/js/main.804f023c.chunk.js"
   ]
 }
