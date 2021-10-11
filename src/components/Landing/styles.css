@@ -1,0 +1,38 @@
+body {
+    overflow-x: hidden;
+}
+
+.landing-page {
+    background-color: #f8f4e9;
+    text-align: -webkit-center;
+    height: 100vh;
+}
+
+.bio-pic {
+    max-width: 40%!important;
+    height: auto!important;
+}
+
+.tanLineLol1 {
+    transform: scaleX(0.5) rotate(
+    90deg);
+    right: 40%;
+    position: absolute;
+}
+
+.tanLineLol2 {
+    transform: scaleX(0.5) rotate(
+    90deg);
+    left: 40%;
+    position: absolute;
+}
+
+
+/* .border {
+    border: 6px solid #97bb98!important;
+    padding: 65px 0px;
+} */
+
+.nameh2 {
+    padding: top 8%;;
+}

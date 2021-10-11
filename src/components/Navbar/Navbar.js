@@ -1,13 +1,14 @@
 import React from "react";
 // import { Link } from "react-router-dom";
-// import "./style.css";
+import "./styles.css";
 import { Navbar, Nav, Container } from "react-bootstrap";
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navigation() {
   return (
     <>
-  <Navbar bg="dark" variant="dark">
+  <Navbar className="nav" fixed="top">
+    {/* want Nav brand to be hidden then appear upon scroll; my name h2 will scroll up */}
     <Container>
     <Navbar.Brand href="#home">Navbar</Navbar.Brand>
     <Nav className="m-auto">
