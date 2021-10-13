@@ -6,63 +6,114 @@ body {
 .section1 {
   width: 100vw;
   min-width: 100%;
-  height: 850px;
-  /* position: relative; */
+  height: 950px;
   position:fixed;
   top: 0;
   z-index: -9;
-  align-items: center;
+  text-align-last: center;
   /* display: flex; */
   /* overflow: hidden; */
+  background-color: #f8f4e9;
 }
 
 .section2 {
   width: 100vw;
   max-width: 100%;
-  height: 550px;
+  height: 500px;
   /* position: relative; */
-  top: calc(750px * 1);
+  top: calc(850px * 1);
   position:fixed;
   /* top: 0; */
   z-index: 99;
   display: flex;
   /* overflow: hidden; */
   background-color: rgb(68, 48, 15);
-
 }
+
 .section3 {
   width: 100vw;
   max-width: 100%;
-  height: 750px;
+  height: 850px;
   /* position: relative; */
   position: fixed;
-  top: calc(750px * 2);
-  /* position:fixed; */
+  top: calc(550px * 2);
   /* top: 0; */
   display: flex;
   /* overflow: hidden; */
-  background-color: sienna;
+  background-color: #a6ba95;
 
 }
 .section4 {
   width: 100vw;
   max-width: 100%;
-  height: 550px;
+  height: 320px;
   position: absolute;
   /* position: fixed; */
-  top: calc(750px * 3);
+  top: calc(625px * 3);
   display: flex;
   flex-direction: column;
   justify-content:flex-end;
   align-items: center;
   text-align: center;
-  font-size: 30px;
+  /* font-size: 30px; */
   background-color: #676b89;
+  z-index: -500;
 }
 
 /* ******* Section 1 Children */
-.nameh2 {
-  padding-top: 55px;
+.myName {
+  padding-top: 100px;
+  font-family: 'Spartan', sans-serif;
+  color: #d1a540;
+}
+
+.jobTitle {
+  font-family: 'Six Caps', sans-serif;
+  font-size: 7rem;
+  letter-spacing: 2px;
+  text-shadow: 3px 3px 7px grey;
+}
+
+.bio-pic {
+  max-width: 30%!important;
+  height: auto!important;
+}
+
+.tropicalLeaf {
+  /* display: inline-flex; */
+  position: fixed;
+  transform: rotate( 
+  26deg) scale(-0.6) scaleX(-1) translate(-184px, -275px);
+  opacity: 65%;
+}
+
+.shadowTropicalLeaf {
+  /* display: inline-flex; */
+  position: fixed;
+  transform: rotate( 
+26deg) scale(-0.45) scaleX(-1) translate(-11px, -270px);
+  opacity: 7%;
+}
+
+.longLeaf {
+  position: fixed;
+  transform: rotate( 
+  338deg) scale(1) translate(973px, 390px);
+  opacity: 50%;
+}
+
+.tanLineLol1 {
+  transform: scaleX(0.5) rotate(
+  90deg);
+  right: 40%;
+  /* position: absolute; */
+}
+
+.tanLineLol2 {
+  transform: scaleX(0.5) rotate(
+  90deg);
+  left: 40%;
+  /* position: absolute; */
 }
 
 /* ******* Section 2 Children */
@@ -85,47 +136,12 @@ body {
   height: 40vh;
   /* position: absolute; */
   position: fixed;
-  transform: translateY(164%) rotate(
+  transform: translateY(200%) rotate( 
   180deg);
   z-index: 5;
 }
 
-/* brought over from landing.js/css */
-/* body {
-  overflow-x: hidden;
-} */
-
-.landing-page {
-  background-color: #f8f4e9;
-  text-align: -webkit-center;
-  height: 100vh;
-}
-
-.bio-pic {
-  max-width: 40%!important;
-  height: auto!important;
-}
-
-.tanLineLol1 {
-  transform: scaleX(0.5) rotate(
-  90deg);
-  right: 40%;
-  /* position: absolute; */
-}
-
-.tanLineLol2 {
-  transform: scaleX(0.5) rotate(
-  90deg);
-  left: 40%;
-  /* position: absolute; */
-}
-
-
-/* .border {
-  border: 6px solid #97bb98!important;
-  padding: 65px 0px;
-} */
-
-/* .nameh2 {
-  padding: top 8%;;
-} */
+/* *********** FONTS *
+************ */
+/* font-family: 'Six Caps', sans-serif; */
+/* font-family: 'Spartan', sans-serif; */
