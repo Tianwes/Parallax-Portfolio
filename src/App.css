@@ -75,31 +75,39 @@ body {
 }
 
 .bio-pic {
-  max-width: 30%!important;
+  max-width: 35%!important;
   height: auto!important;
+  position: fixed;
+  transform: translate(400px, 287px);
 }
 
 .tropicalLeaf {
   /* display: inline-flex; */
   position: fixed;
   transform: rotate( 
-  26deg) scale(-0.6) scaleX(-1) translate(-184px, -275px);
-  opacity: 65%;
+  26deg) scale(-0.5) scaleX(-1) translate(-285px, -230px);
+  opacity: 25%;
 }
 
 .shadowTropicalLeaf {
   /* display: inline-flex; */
   position: fixed;
   transform: rotate( 
-26deg) scale(-0.45) scaleX(-1) translate(-11px, -270px);
+  26deg) scale(-0.45) scaleX(-1) translate(-145px, -255px);
   opacity: 7%;
 }
 
-.longLeaf {
+/* .longLeaf {
   position: fixed;
   transform: rotate( 
   338deg) scale(1) translate(973px, 390px);
   opacity: 50%;
+} */
+.longLeaf {
+  position: fixed;
+  transform: rotate( 
+  338deg) scale(1) translate(805px, 315px);
+  opacity: 25%;
 }
 
 .tanLineLol1 {
@@ -123,6 +131,28 @@ body {
   display: flex;
 }
 
+.aboutMep {
+  color: #a6ba95;
+  margin: 20% 10%;
+  padding-left: 20%;
+  font-size: 17px;
+}
+
+@keyframes slideFromR2L {
+  from {
+    transform: translate(470px, 15px);
+  }
+  to {
+    transform: translate(65px, 15px);
+  }
+}
+
+.bio-pic2 {
+  height: 53%;
+  transform: translate(65px, 15px);
+  position: fixed;
+}
+
 .svg_curve_top {
   width: 100%;
   height: 35vh;
@@ -140,6 +170,7 @@ body {
   180deg);
   z-index: 5;
 }
+
 
 /* *********** FONTS *
 ************ */

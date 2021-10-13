@@ -30,6 +30,7 @@
     integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
     crossorigin="anonymous"
     />
+    
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -49,5 +50,31 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <!-- JQuery CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+      jQuery(document).ready(function($){
+
+$triggered_times = 0;
+
+$(window).on('scroll', function() {
+
+        var y_scroll_pos = window.pageYOffset;
+        var scroll_pos_test = 650;   // set to whatever you want it to be
+
+        if(y_scroll_pos > scroll_pos_test && $triggered_times == 0 ) {
+            // alert("hi");
+            //do your stuff over here
+             
+            $(".bio-pic2").css({
+        animation: "slideFromR2L 3s"
+    })
+            $triggered_times = 1;   // to make sure the above action triggers only once
+
+        }
+});
+
+})
+    </script>
   </body>
 </html>
